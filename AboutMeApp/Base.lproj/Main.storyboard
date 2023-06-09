@@ -35,7 +35,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Log In"/>
                                         <connections>
-                                            <action selector="logInButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="W0B-yC-eJ8"/>
+                                            <action selector="logInButtonWasPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pyr-V0-nDH"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="htB-13-8gQ">
@@ -78,6 +78,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="logInButton" destination="XqW-DN-o6J" id="ujv-GV-kAb"/>
                         <outlet property="nameForgotButton" destination="l2L-F0-Bhe" id="HJq-lE-vlR"/>
                         <outlet property="passwordForgotButton" destination="GoU-Zf-iT9" id="reD-ek-dj5"/>
                         <outlet property="passwordTextField" destination="kJL-fH-tMS" id="qZi-th-Pr7"/>
