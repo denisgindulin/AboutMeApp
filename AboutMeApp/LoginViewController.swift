@@ -18,8 +18,8 @@ class LoginViewController: UIViewController {
     @IBOutlet private var logInButton: UIButton!
     
     //MARK: - Private Properties
-    private var userName = "User"
-    private var userPassword = "123"
+    private let userName = "User"
+    private let userPassword = "123"
     
     //MARK: - Override Methods
     override func viewDidLoad() {
