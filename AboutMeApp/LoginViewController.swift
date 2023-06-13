@@ -89,9 +89,13 @@ private extension LoginViewController {
         
         present(invalidLogInAlert, animated: true)
     }
-    
+}
+ 
+//MARK: - ClearTextField Method
+private extension LoginViewController {
     func clearTextField() {
         passwordTextField.text = ""
     }
 }
-        
+
+
